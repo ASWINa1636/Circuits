@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Allow FileProvider to share files from the app's cache directory -->
+    <cache-path name="cache_files" path="." />
+    <!-- You can add other paths if needed, but cache is usually sufficient for this workaround -->
+    <!-- Example: <external-path name="external_files" path="." /> -->
+</paths>

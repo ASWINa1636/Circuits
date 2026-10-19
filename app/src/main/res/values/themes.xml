@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- FIX: Inherit directly from Light theme -->
+    <style name="Base.Theme.Circuits" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/app_blue</item> <!-- Your blue -->
+        <item name="colorPrimaryVariant">@color/app_blue_dark</item> <!-- Your darker blue -->
+        <item name="colorOnPrimary">@color/white</item> <!-- Text/icons on primary -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/app_accent</item> <!-- Your accent -->
+        <item name="colorSecondaryVariant">@color/app_accent</item> <!-- Can be same or darker -->
+        <item name="colorOnSecondary">@color/black</item> <!-- Text/icons on secondary -->
+
+        <!-- FIX: Status bar color (use primary dark for contrast) -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- FIX: Ensure status bar icons are light -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+        <!-- FIX: Set default background to white -->
+        <item name="android:colorBackground">@color/white</item>
+        <!-- FIX: Set default text color -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/text_gray</item>
+
+        <!-- FIX: Apply Spinner theme -->
+        <item name="android:spinnerStyle">@style/SpinnerTheme</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+
+    </style>
+
+    <style name="Theme.Circuits" parent="Base.Theme.Circuits" />
+
+    <!-- Splash Screen Theme (Optional but good practice) -->
+    <!-- You might not need a separate splash theme if Base is NoActionBar -->
+    <!-- <style name="Theme.Circuits.Splash" parent="Theme.SplashScreen"> -->
+    <!-- Customize splash screen if needed -->
+    <!-- </style> -->
+
+    <!-- FIX: Custom Spinner Style for Light Theme -->
+    <style name="SpinnerTheme" parent="Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/black</item> <!-- Text color when item selected -->
+        <!-- You might need background if default is transparent -->
+        <item name="android:background">@drawable/edit_text_background</item> <!-- Optional: same background as EditText? -->
+    </style>
+
+    <style name="SpinnerDropDownItem" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textColor">@color/black</item> <!-- Text color in dropdown list -->
+        <item name="android:background">@color/white</item> <!-- Background of dropdown list -->
+    </style>
+
+</resources>
+

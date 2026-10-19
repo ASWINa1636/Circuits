@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".UploadActivity">
+    <!-- FIX: Ensure root layout uses white background and fits system windows -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share_datasheet_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/app_blue"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"/>
+    <!-- FIX: Moved comment outside tag -->
+    <!-- Use app color for title -->
+
+    <EditText
+        android:id="@+id/etComponentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/component_name_hint"
+        android:inputType="textCapWords"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_gray"
+        android:autofillHints="name" />
+    <!-- FIX: Moved comment outside tag -->
+    <!-- Ensure text is black -->
+    <!-- Use defined gray for hint -->
+
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/description_hint"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_gray" />
+    <!-- FIX: Moved comment outside tag -->
+    <!-- Ensure text is black -->
+
+
+    <Button
+        android:id="@+id/btnSelectFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/select_file_button"
+        app:backgroundTint="@color/app_blue_dark" />
+    <!-- FIX: Moved comment outside tag -->
+    <!-- Use darker blue for contrast -->
+
+    <TextView
+        android:id="@+id/tvSelectedFileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="@string/no_file_selected"
+        android:textColor="@color/text_gray" />
+    <!-- FIX: Moved comment outside tag -->
+    <!-- Use defined gray -->
+
+    <!-- Spacer to push save button to bottom -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/save_button"
+        app:backgroundTint="@color/app_blue" />
+    <Button
+        android:id="@+id/btnOpenFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Selected File"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/btnSave" />
+
+    <!-- FIX: Moved comment outside tag -->
+    <!-- Use primary blue -->
+
+</LinearLayout>
+

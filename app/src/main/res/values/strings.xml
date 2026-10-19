@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Circuits</string>
+
+    <!-- Generic -->
+    <string name="error_fill_field">Please fill this field</string>
+    <string name="error_fill_all_fields">Please fill all fields</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_opening_file">Error opening file.</string>
+    <string name="no_app_found_error">No application found to open this file type.</string>
+    <string name="permission_denied_error">Permission denied to open file.</string>
+    <string name="error_invalid_file_path">Could not open file: Invalid path or permission issue.</string>
+
+
+    <!-- Permission Strings -->
+    <string name="permission_needed_title">Permission Required</string>
+    <string name="storage_permission_rationale">This app needs permission to read files from your storage so you can upload and open datasheets.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="permission_needed_toast">Storage permission is needed to access files.</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="permission_denied_permanently">Storage permission was permanently denied. You can grant it in the app settings to enable file features.</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="file_access_limited">File access features will be limited without storage permission.</string>
+
+
+    <!-- Login Screen -->
+    <string name="login_title">Login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="go_to_signup">Don\'t have an account? Sign Up</string>
+    <string name="login_successful">Login Successful!</string>
+    <string name="invalid_credentials">Invalid email or password</string>
+    <string name="forgot_password_not_implemented">Forgot Password feature not yet implemented.</string>
+
+
+    <!-- Forgot Password Screen -->
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="forgot_password_instructions">Enter your email address below. If an account exists, we\'ll show your password (Demo Only - Insecure).</string>
+    <string name="reset_password_button">Find Password</string>
+    <string name="error_email_not_found">No account found for this email address.</string>
+    <!-- <string name="password_reset_email_sent">Password reset instructions sent to your email.</string> -->
+
+
+    <!-- Signup Screen -->
+    <string name="create_account_title">Create Account</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="username_hint">Username</string>
+    <string name="email_hint_signup">Email</string>
+    <string name="password_hint_signup">Password</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="select_profile_type_prompt">Select Profile Type</string>
+    <string name="error_select_profile_type">Please select a profile type</string>
+    <string name="signup_successful">Signup Successful! Please login.</string>
+    <string name="error_user_exists">Username or Email already exists</string>
+    <string-array name="profile_types_array">
+        <item>@string/select_profile_type_prompt</item>
+        <item>Student</item>
+        <item>Working Professional</item>
+        <item>Educator</item>
+        <item>Hobbyist</item>
+    </string-array>
+
+    <!-- Main Screen -->
+    <string name="add_new_datasheet">Add new datasheet</string>
+    <string name="error_no_user_logged_in">Error: No user logged in.</string>
+    <string name="upload_required_message">Please upload a datasheet to enable downloads (access expires after 7 days).</string>
+    <string name="search_hint">Search Datasheets...</string>
+    <string name="action_search">Search</string>
+    <string name="action_profile">Profile</string>
+    <string name="logout">Logout</string>
+
+    <!-- Upload Screen -->
+    <string name="upload_title">Share a Datasheet</string>
+    <string name="share_datasheet_title">Share a Datasheet</string>
+    <string name="component_name_hint">Component Name (e.g., NE555 Timer)</string>
+    <string name="description_hint">Brief Description</string>
+    <string name="select_file_button">Select File</string>
+    <string name="select_file">Select File</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="file_selected">File Selected!</string>
+    <string name="save_button">Save and Share</string>
+    <string name="save_share">Save and Share</string>
+    <string name="error_component_name_empty">Component name cannot be empty</string>
+    <string name="error_description_empty">Description cannot be empty</string>
+    <string name="error_no_file_selected">Please select a specification sheet</string>
+    <string name="datasheet_shared">Datasheet shared!</string>
+    <string name="error_no_user_cannot_upload">Error: No user logged in. Cannot upload.</string>
+    <string name="upload_datasheet_title">Upload Datasheet</string>
+    <string name="error_selecting_file">Error selecting file</string>
+
+
+    <!-- Profile Screen -->
+    <string name="profile_icon">Profile Icon</string>
+    <string name="uploads">Uploads</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="my_uploads">My Uploads</string>
+    <string name="error_loading_profile">Error loading profile</string>
+    <string name="error_user_not_found">Error: User not found.</string>
+    <string name="error_profile_load">Error: Could not load profile.</string>
+    <string name="username_format">\@%s</string>
+    <string name="profile_email">Email</string>
+    <string name="follow_button">Follow</string>
+    <string name="unfollow_button">Unfollow</string>
+
+
+    <!-- Log Messages -->
+    <string name="log_opening_file">Attempting to open file. URI: %1$s, MIME: %2$s</string>
+    <string name="log_mime_fail_retry">Could not determine specific MIME type for %1$s, retrying with generic view.</string>
+
+</resources>
+

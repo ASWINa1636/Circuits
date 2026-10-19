@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Palette -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_gray">#888888</color> <!-- Darker gray for light theme -->
+
+    <!-- App theme colors (Keep your blues/accents) -->
+    <color name="app_blue">#3498DB</color>
+    <color name="app_blue_dark">#2980B9</color> <!-- Used for status bar -->
+    <color name="app_accent">#E74C3C</color>
+
+    <!-- FIX: Remove unused purple colors -->
+    <!-- <color name="purple_500">#6200EE</color> -->
+    <!-- <color name="purple_700">#3700B3</color> -->
+
+</resources>
+
