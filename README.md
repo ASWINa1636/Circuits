@@ -77,6 +77,20 @@ circuits/
 └── README.md
 ```
 
+## Screenshots
+>
+><p align="center">
+>  <img src="screenshots/logo.jpg" width="200" alt="Splash Screen" />
+>  <img src="screenshots/login.jpg" width="200" alt="Login Screen" />
+>  <img src="screenshots/signup1.jpg" width="200" alt="Home Screen" />
+>  <img src="screenshots/signup2.jpg" width="200" alt="Home Screen" />
+>  <img src="screenshots/profile.jpg" width="200" alt="Profile Screen" />
+>  <img src="screenshots/main.jpg" width="200" alt="Home Screen" />
+>  <img src="screenshots/documents.jpg" width="200" alt="Home Screen" />
+>  <img src="screenshots/upload_file.png" width="200" alt="Home Screen" />
+
+></p>
+>
 ## Getting Started
 
 ### Requirements
